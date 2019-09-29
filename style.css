@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+img {
+    position: relative;
+    bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 13px;
+}
+
+svg {
+    position: relative;
+    left: 490px;
+    bottom: 52px;
+    display: block;
+    height: 2%;
+    width: 2%;
+    fill: gray;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-top ul {
+    width: 100%; /*this solved the issue of google on top of the nav area*/
+    height: 50px;
+}
+
+.nav-bottom ul {
+    background: #ebebeb;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.upper-left , .bottom-left{
+    float: left;
+}
+
+
+.upper-right {
+    position: relative;
+    right: 100px;
+}
+
+.upper-right, .bottom-right {
+    float: right;
+}
+
+.bottom-right {
+    position: relative;
+    right: 100px;
+}
+
+.content {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.searchbar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    text-indent: 45px;
+}
+.searchbar:focus {
+    outline: none;
+}
+
+.btn {
+    height: 36px;
+    background: #f2f2f2;
+    margin: 11px 14px;
+    padding: 0px 16px;
+}
+
+#searchbar {
+    width: 300px;
+    margin-bottom: 15px;
+}
